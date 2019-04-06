@@ -1,5 +1,5 @@
 import _ from "lodash";
-var template = require("pug-loader!./index.pug");
+let template = require("./index.pug");
 
 function component() {
   let element = document.createElement("div");
@@ -7,7 +7,9 @@ function component() {
   return element;
 }
 
-var html = template();
+let html = template();
+
+console.log(html);
 
 document.body.innerHTML = html;
 document.body.appendChild(component());
