@@ -4,11 +4,12 @@ let HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   mode: "development",
   entry: {
-    main: "./src/index.js"
+    pug: "./src/pug/index.js",
+    handlebars: "./src/handlebars/index.js"
   },
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "main.js"
+    filename: "[name].js"
   },
   watch: true,
   devServer: {
@@ -21,6 +22,10 @@ module.exports = {
       {
         test: /\.pug?$/,
         loader: "pug-loader"
+      },
+      {
+        test: /\.handlebars?$/,
+        loader: "handlebars-loader"
       }
     ]
   },

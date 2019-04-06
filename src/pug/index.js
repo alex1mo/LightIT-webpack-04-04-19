@@ -9,7 +9,5 @@ function component() {
 
 let html = template();
 
-console.log(html);
-
 document.body.innerHTML = html;
 document.body.appendChild(component());
