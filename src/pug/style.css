@@ -1,0 +1,10 @@
+.pug {
+  font-size: 30px;
+  color: green;
+  transition: 1s; /* test postcss-autoprefixer*/
+  user-select: none; /* test postcss-autoprefixer*/
+}
+
+.pug:hover {
+  font-size: 100px;
+}

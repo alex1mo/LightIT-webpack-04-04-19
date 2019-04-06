@@ -1,4 +1,5 @@
 import _ from "lodash";
+import "./style.css";
 let template = require("./index.pug");
 
 function component() {
