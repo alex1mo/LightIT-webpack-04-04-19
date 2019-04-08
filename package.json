@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf ./dist && webpack",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "test-nginx": "npm run build && sudo cp test-nginx.conf /etc/nginx/conf.d/ && sudo cp -rf dist/ /usr/share/nginx/ && sudo nginx -s reload"
   },
   "keywords": [],
   "author": "",
