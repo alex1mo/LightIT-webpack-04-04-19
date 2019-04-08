@@ -4,26 +4,32 @@ npm install
 
 ## Webpack
 
-npm run build // собрать проект
+<b>npm run build</b> // собрать проект
 
 ## Nginx
 
-установить https://nginx.org/ru/linux_packages.html#Ubuntu
+установить <a>https://nginx.org/ru/linux_packages.html#Ubuntu</a>
 
-npm run test-nginx //собрать проект и добавить в nginx
-npm run delete-nginx //удалить файлы из nginx
+<b>npm run test-nginx</b> //собрать проект и добавить в nginx
+
+<b>pm run delete-nginx</b> n//удалить файлы из nginx
 
 ## Docker
 
-устанвоить https://docs.docker.com/install/linux/docker-ce/ubuntu/
+устанвоить <a>https://docs.docker.com/install/linux/docker-ce/ubuntu/</a>
 
-npm run test-docker //создать образ с именем "docker-test" из конфигурационного файла "Dockerfile"
-docker image list //просмотреть все образы
-docker run -d -p 8080:8080 --name myapp docker:test //создать контейнер с именем "myapp" из образа "docker:test". запустить в фоновом режиме и прослушивать виртуальный порт 8080 на лакальном порте 8080
-docker ps -a // просмореть все контейнеры
-docker rm [имя] //удалить контейре
-docker rmi [имя] //удалить образ
+<b>npm run test-docker</b> //создать образ с именем "docker-test" из конфигурационного файла "Dockerfile"
+
+<b>docker image list</b> //просмотреть все образы
+
+<b>docker run -d -p 8080:8080 --name myapp docker:test</b> //создать контейнер с именем "myapp" из образа "docker:test". запустить в фоновом режиме и прослушивать виртуальный порт 8080 на лакальном порте 8080
+
+<b>docker ps -a</b> // просмореть все контейнеры
+
+<b>docker rm [имя]</b> //удалить контейре
+
+<b>docker rmi [имя]</b> //удалить образ
 
 ## Docker-conpose
 
-установить https://docs.docker.com/compose/install/
+установить <a>https://docs.docker.com/compose/install/</a>
