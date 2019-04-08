@@ -1,4 +1,6 @@
-# WEBPACK 04-04-19
+#### дз: добавить поддержку pug и https://handlebarsjs.com/, добавить autoprefixer (postcss). Почитать про nginx и docker (основные команды)  и попробовать запустить nginx в docker самостоятельно
+
+## Get Start
 
 npm install
 
