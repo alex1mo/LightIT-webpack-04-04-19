@@ -6,7 +6,9 @@
   "scripts": {
     "build": "rm -rf ./dist && webpack",
     "dev": "webpack-dev-server",
-    "test-nginx": "npm run build && sudo cp test-nginx.conf /etc/nginx/conf.d/ && sudo cp -rf dist/ /usr/share/nginx/ && sudo nginx -s reload"
+    "test-nginx": "npm run build && sudo cp test-nginx.conf /etc/nginx/conf.d/ && sudo cp -rf dist/ /usr/share/nginx/ && sudo nginx -s reload",
+    "delete-nginx": "sudo rm -rf /etc/nginx/conf.d/test-nginx.conf /usr/share/nginx/dist/",
+    "test-docker": "docker build -t docker:test ./"
   },
   "keywords": [],
   "author": "",
