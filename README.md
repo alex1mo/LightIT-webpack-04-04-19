@@ -10,6 +10,8 @@ npm install
 
 установить <a>https://nginx.org/ru/linux_packages.html#Ubuntu</a>
 
+<b>sudo nginx<b/> //запустить nginx
+
 <b>npm run test-nginx</b> //собрать проект и добавить в nginx
 
 <b>npm run delete-nginx</b> //удалить файлы из nginx
