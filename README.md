@@ -12,7 +12,7 @@ npm install
 
 <b>npm run test-nginx</b> //собрать проект и добавить в nginx
 
-<b>npm run delete-nginx</b> n//удалить файлы из nginx
+<b>npm run delete-nginx</b> //удалить файлы из nginx
 
 ## Docker
 
